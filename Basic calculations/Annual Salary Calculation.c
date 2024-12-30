@@ -12,6 +12,7 @@ int annual_salary = hourly_wage * hours_per_week * weeks_per_year;
 
 int main()
 {
-    printf("The annual salary therefore is: UGX%d\n", annual_salary);
+    printf("The annual salary assuming 40 work hours and 52 weeks per year is: UGX%d\n", annual_salary);
     return 0;
 }
+

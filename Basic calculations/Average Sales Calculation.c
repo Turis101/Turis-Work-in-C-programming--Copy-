@@ -15,5 +15,7 @@ int average_sales = total_sales / days;
 int main()
 {
     printf("The average sales per day in a month with total sales of UGX%d over %d days is: UGX%d\n", total_sales, days, average_sales);
+    printf("The program run successfully\n");
+
     return 0;
 }

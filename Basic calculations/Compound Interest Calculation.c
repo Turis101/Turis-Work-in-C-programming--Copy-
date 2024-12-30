@@ -10,16 +10,15 @@ Calculate the compound interest on a principal of UGX
 #include <stdlib.h>
 #include <math.h>
 
-const int principal = 8000;
+const int principal = 8000, time = 2;
 const int rate = 0.04;
-const int time = 2;
 const int n = 0.25;
 
 
 
 int main()
 {
-    int compound_interest = principal * (1 + (rate / n))^(n * time) - principal;
+    int compound_interest = principal * ((1 + (rate / n))^(n * time)) - principal;
 
     printf("The compound interest on a principal of UGX%d, annual interest rate of %d, over %dyears and compounded quarterly is:\n %d \n", principal, rate, time, compound_interest);
 

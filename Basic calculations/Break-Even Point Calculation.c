@@ -14,6 +14,6 @@ int break_even_units = fixed_costs / (selling_price - variable_cost);
 int main()
 {
     printf("The break-even point in units is: %d \n", break_even_units);
-
+    printf("The program run successfully\n");
     return 0;
 }
