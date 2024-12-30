@@ -14,4 +14,5 @@ int main()
 {
     printf("The gross profit thus is: %d\n", gross_profit);
     return 0;
+    
 }
